@@ -1,4 +1,4 @@
-# app-social-media-schedule
+# social-media-post-scheduling
 
 ## Project setup
 ```

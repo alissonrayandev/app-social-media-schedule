@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "social_network_key": ["2", "3"],
+      "media": "https://images.unsplash.com/photo-1600025282051-ec0c6bf3137a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "text": "Texto do post",
+      "publication_date": "2020-09-10T15:59:23.922Z",
+      "status_key": 1 
+    },
+    {
+      "id": 2,
+      "social_network_key": ["2"],
+      "media": "https://images.unsplash.com/photo-1600025282051-ec0c6bf3137a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "text": "Texto do post",
+      "publication_date": "2020-09-08T15:59:23.922Z",
+      "status_key": 3 
+    },
+    {
+      "id": 3,
+      "social_network_key": ["2", "3"],
+      "media": "https://plus.unsplash.com/premium_photo-1661317306727-64c7a1339a6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus eu lorem ac vestibulum. Nunc porttitor lobortis nibh ut aliquam.",
+      "publication_date": "2024-09-08T15:59:23.922Z",
+      "status_key": 2
+    },
+    {
+      "id": 4,
+      "social_network_key": ["2", "3"],
+      "media": "https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus eu lorem ac vestibulum. Nunc porttitor lobortis nibh ut aliquam.",
+      "publication_date": "2024-09-08T15:59:23.922Z",
+      "status_key": 4
+    },
+    {
+      "id": 5,
+      "social_network_key": ["2", "3"],
+      "media": "https://images.unsplash.com/photo-1679850281616-74e0a264971f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus eu lorem ac vestibulum. Nunc porttitor lobortis nibh ut aliquam.",
+      "publication_date": "2024-09-08T15:59:23.922Z",
+      "status_key": 2
+    },
+    {
+      "id": 6,
+      "social_network_key": ["2"],
+      "media": "https://images.unsplash.com/photo-1679864877136-40bc8752d2bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus eu lorem ac vestibulum. Nunc porttitor lobortis nibh ut aliquam.",
+      "publication_date": "2024-09-08T15:59:23.922Z",
+      "status_key": 1
+    }
+  ]
+}
