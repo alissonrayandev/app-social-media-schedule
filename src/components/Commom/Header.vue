@@ -15,7 +15,12 @@
     />
 
     <div class="user">
-      <img src="@/assets/images/avatar.png" alt="avatar" />
+      <img
+        src="@/assets/images/avatar.png"
+        alt="avatar"
+        width="45"
+        height="45"
+      />
       <p>Alisson Rayan</p>
     </div>
 

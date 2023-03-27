@@ -11,6 +11,7 @@
     ></textarea>
     <button
       v-if="hasEmojis"
+      aria-label="Emoji"
       class="emoji-button"
       @click="emojiPickerVisible = !emojiPickerVisible"
     >

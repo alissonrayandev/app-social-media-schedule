@@ -10,6 +10,53 @@ export default {
   components: {
     Header,
   },
+  metaInfo() {
+    return {
+      title: "Social Media Schedule",
+      meta: [
+        {
+          name: "description",
+          content: "An application to schedule your social media posts",
+        },
+        {
+          name: "keywords",
+          content: "social media, schedule, posts, management, marketing",
+        },
+        {
+          property: "og:title",
+          content: "Social Media Schedule",
+        },
+        {
+          property: "og:description",
+          content: "An application to schedule your social media posts",
+        },
+        {
+          property: "og:image",
+          content: "https://example.com/your-image.png",
+        },
+        {
+          property: "og:url",
+          content: "https://example.com",
+        },
+        {
+          property: "twitter:title",
+          content: "Social Media Schedule",
+        },
+        {
+          property: "twitter:description",
+          content: "An application to schedule your social media posts",
+        },
+        {
+          property: "twitter:image",
+          content: "https://example.com/your-image.png",
+        },
+        {
+          property: "twitter:card",
+          content: "summary_large_image",
+        },
+      ],
+    };
+  },
 };
 </script>
 
