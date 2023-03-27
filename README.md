@@ -1,37 +1,40 @@
-# Social media schedule
+# Social Media Schedule
+
+This is a social media scheduling application built with Vue 3. It allows users to schedule posts for various social media platforms and preview how the posts will look.
 
 ## How to run
+
+To run the application, first install the dependencies with:
+
 ```
 yarn install
-yarn serve
-
-or just access: https://642157c04619fd74e3d6cf69--sprightly-donut-17f3a3.netlify.app/
 ```
 
-### Compiles and minifies for production
+Then, run the application in development mode with:
+
+```
+yarn serve
+```
+
+
+Alternatively, you can access a live demo of the application at: https://642157c04619fd74e3d6cf69--sprightly-donut-17f3a3.netlify.app/
+
+To build the application for production, run:
+
 ```
 yarn build
 ```
-
-### Lints and fixes files
+To lint and fix files, run:
 ```
 yarn lint
 ```
 
-### About the project
+## About the project
 
-```
-The project was really cool to do, I chose to use vue3 for the first time so it was a learning project. It's far from being good, I ended up testing a lot of different things to be able to take advantage of it.
+This project was built as a learning exercise with Vue 3. As there is no API available, the application behaves as if it has a database by using local storage. To use local storage, I created a function that reduces image file sizes so they can be stored as base64 in the browser itself. 
 
-As I don't have an API, I made it behave as if there was a DB but using localstorage. To be able to use localstorage I needed to reduce the images as much as possible, so I created a function that takes a very heavy image and reduces it to the point that we can store it in base64 in the browser itself, with that being a very interesting application.
+In terms of architecture, I used a container concept where each page has a container that stores business rules and calls components for the visual foundation. 
 
-I chose not to pay much attention to typing, so I used a lot of `as any` but I know it's not a good thing. I decided not to focus on typing because of time, but soon I would like to improve the project and apply typing correctly.
+I faced some challenges with the layout, as there is no consistent spacing pattern and some icons contained in the layout were paid. I also used a lot of `as any` in the code due to time constraints, but I plan to improve the project and apply typing correctly in the future.
 
-I had a lot of difficulty with the layout, not to build it, but it is very inconsistent, it does not have a spacing pattern and that made me a little uncomfortable, I really like using the pattern of multiples of 4 (4px, 8px, 16px, 32px , etc.).
-
-I had a little inconsistency in the icons too, because in font-awesome some icons contained in the layout were paid.
-
-For the architecture I used the container concept, where each page has a container and in that container we store business rules, and in it we call the components that have a more visual foundation.
-
-In general, I didn't find it a difficult project, just a lot of work, as I'm having problems with available time, I couldn't pay more attention to details, nor could I apply tests with JEST, which I would love to do. But it was an excellent portfolio job and in the next few days I will make some updates to further improve the project and make it more consistent
-```
+Overall, this was a challenging and time-consuming project, but an excellent portfolio piece. I plan to make further updates to improve the project and make it more consistent.
