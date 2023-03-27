@@ -39,7 +39,7 @@
       @saveSketch="eventSaveSketch()"
     />
 
-    <!-- modal -->
+    <!-- DIALOGS/MODAL -->
     <LoseProgressDialog
       v-if="displayLoseProgressDialog"
       :is-open="displayLoseProgressDialog"
@@ -51,6 +51,12 @@
       v-if="displaySuccessDialog"
       :is-open="displaySuccessDialog"
       @redirect="$router.push('/agenda')"
+    />
+
+    <SavedSketchDialogVue
+      v-if="displaySavedDialog"
+      :is-open="displaySavedDialog"
+      @redirect="$router.push('/')"
     />
   </div>
 </template>
@@ -69,6 +75,7 @@ import PostVizualization from "@/components/ScheduleView/PostVizualization.vue";
 import FullScreenLoading from "@/components/DesignSystem/FullScreenLoading.vue";
 import LoseProgressDialog from "@/components/Commom/Dialogs/LoseProgressDialog.vue";
 import SuccessDialog from "@/components/Commom/Dialogs/SuccessDialog.vue";
+import SavedSketchDialogVue from "@/components/Commom/Dialogs/SavedSketchDialog.vue";
 
 export default defineComponent({
   name: "ScheduleViewContainer",
@@ -82,6 +89,7 @@ export default defineComponent({
     FullScreenLoading,
     LoseProgressDialog,
     SuccessDialog,
+    SavedSketchDialogVue,
   },
   data() {
     return {
@@ -96,6 +104,7 @@ export default defineComponent({
       isLoaded: false,
       displayLoseProgressDialog: false,
       displaySuccessDialog: false,
+      displaySavedDialog: false,
     };
   },
   computed: {
@@ -111,6 +120,7 @@ export default defineComponent({
     ]),
     eventSaveSketch() {
       this.saveSketch(this.post);
+      this.displaySavedDialog = true;
     },
 
     savePub() {
